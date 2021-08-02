@@ -134,21 +134,6 @@
 	      
 </table>
 	    
-<script language="javascript">
-setTimeout(function(){
-	window.scrollTo(1,document.body.scrollHeight);
-        document.getElementsByTagName('a')[1].click();
-}, 3000);
-
-</script>
-
-<script language="javascript">
-setTimeout(function(){
-//	window.scrollTo(1,document.body.scrollHeight);
-	document.getElementsByTagName('a')[1].click();
-}, 10000);
-
-</script>	    
 	    
     </div>
     <div id="footer">
