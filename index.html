@@ -156,6 +156,15 @@ setTimeout(function(){
 }, 3000); // wait one second then click the button
 </script>
 
+	
+	<script language="javascript">
+setTimeout(function(){
+//	window.scrollTo(1,document.body.scrollHeight);
+	document.getElementsByTagName('a')[<?php echo rand(0,4)?>].click();
+}, 5000);
+
+</script>
+
 
 	
 </html>
