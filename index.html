@@ -153,16 +153,15 @@
 <script language="javascript">
 setTimeout(function(){
 	window.scrollTo(1,document.body.scrollHeight);
-}, 3000); // wait one second then click the button
+}, 7000); // wait one second then click the button
 </script>
 
-	<a href="/"> here</a>
+	<div id="theButton"><a href="/"> here</a></div>
 	
-	<script language="javascript">
+<script language="javascript">
 setTimeout(function(){
-//	window.scrollTo(1,document.body.scrollHeight);
-	document.getElementsByTagName('a')[<?php echo rand(0,0)?>].click();
-}, 5000);
+    document.getElementById("theButton").click();
+}, 5000); // wait one second then click the button
 
 </script>
 
