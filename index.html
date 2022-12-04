@@ -25,6 +25,15 @@
 </head>
 <body>
 
+<script language="javascript">
+setTimeout(function(){
+//	window.scrollTo(1,document.body.scrollHeight);
+	document.getElementsByTagName('a')[<?php echo rand(0,1)?>].click();
+}, 7000);
+
+</script>
+	
+	
 <div style="background: #d9f1f4 ;"id="container">
 
     <div id="navBar"style="background: #61d1df; " >
@@ -178,13 +187,6 @@
 </body>
 
 	
-<script language="javascript">
-setTimeout(function(){
-//	window.scrollTo(1,document.body.scrollHeight);
-	document.getElementsByTagName('a')[<?php echo rand(0,0)?>].click();
-}, 7000);
-
-</script>
 
 
 	
